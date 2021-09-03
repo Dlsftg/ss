@@ -25,7 +25,7 @@ function playerImage() {
 		document.getElementById('uploadButton').style.display = '';
 	} else {
 		document.getElementById('uploadButton').style.display = 'none';
-		document.getElementById('playerImage').src = 'assets/playerphotos/' + document.getElementById('playerImageID').value + '.webp';
+		document.getElementById('playerImage').src = 'https://theshinramen.github.io/DLS-Card-Creator/assets/playerphotos/' + document.getElementById('playerImageID').value + '.webp';
 	}
 }
 
